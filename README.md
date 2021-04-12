@@ -1,18 +1,9 @@
 ## Hyderabad House Price Predictor
-a ML model which predicts the price of a house based on features like number of washrooms,bedrooms,balconies and total Sq.ft etc..the model is not 100% accurate but can predict correctly upto 70%
+ML model which predicts the price of a house based on features like total Sq. ft area,total number of bedrooms,balconies etc.
 The front-end of this model is made by boot-strap and Flask,where as the backend is a Machine learning model which is trained on the housing-price dataset and the  algorithm used is Random-Forest
 the model is hosted at------>  https://homepricepredictor.herokuapp.com/
 
 
-ML model which predicts the price of a house based on features like total Sq. ft area,total number of bedrooms,balconies etc.
-The front-end of this model is made by boot-strap and Flask,where as the backend is a Machine learning model which is trained on the housing-price dataset on IBM Watson using the AUTO AI and the algorithm 
-selected by AUTO AI was Random-Forest Regressor,here is a small glimpse of the project,
-
-### The video presentation of the project is present at this link ↓
-
-https://drive.google.com/file/d/12N1kmGOp5NbMSNzKWBLUaKyhme1DAuAO/view?usp=sharing
-
-As the video is long enough,if its not displaying in the drive frame,please do download the video and have a check
 
 ## General Overview of the Project 
 
@@ -32,7 +23,7 @@ Here after we have to fill in the details as required and hit the predict button
 
 ![.](images/6.PNG)
 
-Once the form is filled,hit the predict button and it will take some time as the requests made are asynchronous,as the data is been passed from the "FORM" to the IBM watsons' AUTO AI,for prediction,and as that will recieve,the result will be fetched,here is the glimpse of the output,after the result has been fetched from the IBM cloud
+Once the form is filled,hit the predict button and it will take some time as the requests made are asynchronous,as the data is been passed from the "FORM" to the Heroku cloud,where i have hosted my machine learning model,the data from the form is passed in the form of a multidimenssional array,and once the model at heroku is done with the computation it returns the result in form of json,which we have to convert into python list and get the result and display it in the front end.
 
 ![.](images/5.PNG)
 
@@ -42,14 +33,6 @@ Once the form is filled,hit the predict button and it will take some time as the
  
 
 
-## Contributions
-
-L.Sai Nikhil,Vishwam gave their contributions in making the UI of the project
-
-Meet.V,L.Sai Nikhil gave their contributions in creating the Flask server and the Machine Learning Model on the IBM cloud
-
-Vishwam,Meet gave their contributions in formatting the document and also making the video presentation of the project.
-
 ### Technologies Used
 
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="python"></code>
@@ -58,6 +41,13 @@ Vishwam,Meet gave their contributions in formatting the document and also making
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="css3"></code>
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="git"></code>
 
-Had a Great time building this model using IBM CLoud Services and AUTO AI ~ from the teammates of DataCrew❤
+
+
+
+
+
+
+
+
 
 
